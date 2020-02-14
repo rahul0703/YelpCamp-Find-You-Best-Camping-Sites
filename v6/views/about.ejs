@@ -1,0 +1,65 @@
+<%- include("./partials/header") %>
+
+<style>
+	@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+
+body {
+  width: 80%;
+  border: 20px solid #bdc3c7;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+.date {
+  color: #3498db;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.quote{
+  border-left: 5px solid #bdc3c7;
+  padding-left: 5px;
+}
+
+h2 {
+  font-size: 2.0rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+</style>
+
+<div class = "container">
+	<div class = "row">
+		<div class = "col-md-3">
+			<p class = "lead">YelpCamp</p>
+			<div class = "list-group">
+				<li class = "list-group-item active">Info 1</li>
+				<li class = "list-group-item">Info 2</li>
+				<li class = "list-group-item">Info 3</li>
+			</div>
+		</div>
+		<div class = "col-md-9">
+			
+			<div class="post">
+				<div class="date">November 23 2015</div>
+					<h2>This Is the about page</h2>
+						<p class="quote">This is a my term project for <strong><em>Complete Web Development Bootcamp.</em> </strong> YelpCamp, 
+							Find Your Best Camp Sites is a website where a user can signUp and view all the camping sites in India and find information 							about it. Also one can add his/her own campground and market. Plople can comment and discuss about various campgrounds too. 						</p>
+						<p>My name is Rahul Sureka, I have made this website. I am currently in my junior year of B-tech in Petroleum Engineering from 								Rajiv Gandhi Institute of Petroleum Technology (RGIPT). I have developed my interest in computer programming and Data 		Science in my freshman year itself. Developed skills like Machine Learning, Python Programming, JavaScript Programming, Full Stack Web Development using nodeJs, MongoDB, express.js. I also have a strong grounding in Data Structures and Algorithms. Currently I am open to opportunities like Machine Learning, Data Science or Full Stack Developer internship in summer 2020.
+						</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<%- include("./partials/footer") %>
